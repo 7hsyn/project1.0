@@ -1,0 +1,26 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.animated-text {
+    transition: transform 0.5s;
+}
+.animate {
+    transform: scale(1.2);
+}
+.background {
+    background-image: url("accessories.jpg");
+    background-size: cover; /* adjust the background size as needed */
+    height: 700px;
+}
